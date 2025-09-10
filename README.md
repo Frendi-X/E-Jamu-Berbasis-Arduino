@@ -101,4 +101,3 @@ Setelah pilihan ditekan, servo akan bergerak sesuai jalur, pompa (relay) menyala
 ## 👨‍💻 Author
 Dikembangkan oleh: [Reog Robotic & Robotech Electronics]  
 Lisensi: Open Source (MIT)
-Proyek ini dikembangkan untuk kebutuhan praktikum/eksperimen otomatisasi berbasis **Arduino** dengan penerapan vending machine sederhana.  
