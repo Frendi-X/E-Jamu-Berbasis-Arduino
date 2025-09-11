@@ -12,7 +12,7 @@ const int led_BerasKencur = 6;
 const int led_KunirAsem = 5;
 const int servoPin = 11;
 
-const int waitingJamu = 5000;
+const int waitingJamu = 4000;
 
 const int dfTX = 7;
 const int dfRX = 2;
@@ -45,7 +45,7 @@ void setup() {
   mySerial.begin(9600);
   mp3_set_serial(mySerial);
   delay(1000);
-  mp3_set_volume(25);
+  mp3_set_volume(100);
 }
 
 void loop() {
@@ -67,12 +67,14 @@ void loop() {
     while (true) {
       myServo.write(90);
       if (digitalRead(tombol_BerasKencur) == LOW) {
+        mp3_play(12);
         delay(500);
         aksiTombol_BerasKencur();
         mp3_play(20);
         break;
       }
       if (digitalRead(tombol_KunirAsem) == LOW) {
+        mp3_play(18);
         delay(500);
         aksiTombol_KunirAsem();
         mp3_play(20);
