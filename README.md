@@ -99,5 +99,5 @@ Proyek ini merupakan implementasi **mesin vending jamu otomatis** berbasis **Ard
 ---
 
 ## 👨‍💻 Author
-Dikembangkan oleh: [Reog Robotic & Robotech Electronics]  
+Dikembangkan oleh: Imam Sa'id Nurfrendi [Reog Robotic & Robotech Electronics]  
 Lisensi: Open Source (MIT)
