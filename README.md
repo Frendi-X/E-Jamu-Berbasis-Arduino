@@ -1,8 +1,6 @@
 # 🍶 Vending Jamu Otomatis (Arduino Project)
 
-Proyek ini merupakan implementasi **mesin vending jamu otomatis** berbasis **Arduino**.  
-Mesin dapat mendeteksi koin, lalu pengguna dapat memilih jenis jamu yang diinginkan (Beras Kencur atau Kunir Asem).  
-Setelah pilihan ditekan, servo akan bergerak sesuai jalur, pompa (relay) menyala untuk menuangkan jamu, dan audio player memberikan suara notifikasi.
+Proyek ini merupakan implementasi **mesin vending jamu otomatis** berbasis **Arduino**. Mesin dapat mendeteksi koin, lalu pengguna dapat memilih jenis jamu yang diinginkan (Beras Kencur atau Kunir Asem). Setelah pilihan ditekan, servo akan bergerak sesuai jalur, pompa (relay) menyala untuk menuangkan jamu, dan audio player memberikan suara notifikasi.
 
 ![E-Jamu Machine](https://github.com/Frendi-X/E-Jamu-Berbasis-Arduino/blob/main/picture/Vending%20Jamu.jpg) 
 
